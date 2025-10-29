@@ -1,2 +1,21 @@
-main1.py
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+
+# Environment variables file
 .env
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db
